@@ -1,0 +1,33 @@
+{
+  "id": "animal-memory",
+  "engine": "MemoryEngine",
+  "metadata": {
+    "id": "animal-memory",
+    "name": "Hayvan Eşleştirme",
+    "category": "memory",
+    "grade": 1,
+    "difficulty": "easy",
+    "duration": 180,
+    "tags": ["hafıza", "hayvanlar", "eşleştirme"],
+    "description": "Aynı hayvanları eşleştir",
+    "icon": "🐾"
+  },
+  "config": {
+    "timeLimit": 180
+  },
+  "data": {
+    "pairs": [
+      { "id": "cat", "image1": "🐱", "image2": "🐱", "label": "Kedi" },
+      { "id": "dog", "image1": "🐶", "image2": "🐶", "label": "Köpek" },
+      { "id": "rabbit", "image1": "🐰", "image2": "🐰", "label": "Tavşan" },
+      { "id": "bird", "image1": "🐦", "image2": "🐦", "label": "Kuş" },
+      { "id": "fish", "image1": "🐠", "image2": "🐠", "label": "Balık" },
+      { "id": "elephant", "image1": "🐘", "image2": "🐘", "label": "Fil" }
+    ],
+    "config": {
+      "gridSize": "4x4",
+      "timeLimit": 180,
+      "maxMoves": 30
+    }
+  }
+}

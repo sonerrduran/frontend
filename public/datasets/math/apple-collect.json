@@ -1,0 +1,44 @@
+{
+  "id": "apple-collect",
+  "engine": "QuizEngine",
+  "metadata": {
+    "id": "apple-collect",
+    "name": "Apple Collect",
+    "category": "math",
+    "grade": 3,
+    "difficulty": "medium",
+    "duration": 300,
+    "tags": [
+      "math",
+      "apple"
+    ],
+    "description": "Apple Collect oyunu",
+    "icon": "🔢"
+  },
+  "config": {
+    "timeLimit": 300,
+    "showHints": true,
+    "randomize": true
+  },
+  "data": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "Soru 1",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctAnswer": 0,
+        "points": 10
+      }
+    ],
+    "config": {
+      "questionCount": 10,
+      "randomizeQuestions": true
+    }
+  }
+}

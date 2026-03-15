@@ -1,0 +1,45 @@
+{
+  "id": "size-match",
+  "engine": "MatchingEngine",
+  "metadata": {
+    "id": "size-match",
+    "name": "Size Match",
+    "category": "math",
+    "grade": 3,
+    "difficulty": "medium",
+    "duration": 300,
+    "tags": [
+      "math",
+      "size"
+    ],
+    "description": "Size Match oyunu",
+    "icon": "🔢"
+  },
+  "config": {
+    "timeLimit": 300,
+    "showHints": true,
+    "randomize": true
+  },
+  "data": {
+    "pairs": [
+      {
+        "id": "pair1",
+        "left": "Kırmızı",
+        "right": "Red"
+      },
+      {
+        "id": "pair2",
+        "left": "Mavi",
+        "right": "Blue"
+      },
+      {
+        "id": "pair3",
+        "left": "Yeşil",
+        "right": "Green"
+      }
+    ],
+    "config": {
+      "randomize": true
+    }
+  }
+}

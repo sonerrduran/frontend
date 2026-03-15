@@ -1,0 +1,45 @@
+{
+  "id": "color-detective",
+  "engine": "MatchingEngine",
+  "metadata": {
+    "id": "color-detective",
+    "name": "Color Detective",
+    "category": "math",
+    "grade": 3,
+    "difficulty": "medium",
+    "duration": 300,
+    "tags": [
+      "math",
+      "color"
+    ],
+    "description": "Color Detective oyunu",
+    "icon": "🔢"
+  },
+  "config": {
+    "timeLimit": 300,
+    "showHints": true,
+    "randomize": true
+  },
+  "data": {
+    "pairs": [
+      {
+        "id": "pair1",
+        "left": "Kırmızı",
+        "right": "Red"
+      },
+      {
+        "id": "pair2",
+        "left": "Mavi",
+        "right": "Blue"
+      },
+      {
+        "id": "pair3",
+        "left": "Yeşil",
+        "right": "Green"
+      }
+    ],
+    "config": {
+      "randomize": true
+    }
+  }
+}

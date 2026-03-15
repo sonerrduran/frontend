@@ -1,0 +1,78 @@
+{
+  "id": "multiplication-basics",
+  "engine": "QuizEngine",
+  "metadata": {
+    "id": "multiplication-basics",
+    "name": "Çarpma İşlemi Temelleri",
+    "category": "math",
+    "grade": 3,
+    "difficulty": "easy",
+    "duration": 300,
+    "tags": ["çarpma", "matematik", "temel"],
+    "description": "Temel çarpma işlemlerini öğren",
+    "icon": "🔢"
+  },
+  "config": {
+    "timeLimit": 300,
+    "showHints": true,
+    "randomize": true
+  },
+  "data": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "3 x 4 = ?",
+        "options": ["10", "12", "14", "16"],
+        "correctAnswer": 1,
+        "explanation": "3 x 4 = 12. Çünkü 3'ü 4 kere toplarsak: 3 + 3 + 3 + 3 = 12",
+        "points": 10,
+        "hint": "3'ü 4 kere topla"
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "5 x 2 = ?",
+        "options": ["8", "10", "12", "15"],
+        "correctAnswer": 1,
+        "explanation": "5 x 2 = 10. Çünkü 5'i 2 kere toplarsak: 5 + 5 = 10",
+        "points": 10,
+        "hint": "5'i 2 kere topla"
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "2 x 6 = ?",
+        "options": ["10", "12", "14", "16"],
+        "correctAnswer": 1,
+        "explanation": "2 x 6 = 12. Çünkü 2'yi 6 kere toplarsak: 2 + 2 + 2 + 2 + 2 + 2 = 12",
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "4 x 3 = ?",
+        "options": ["10", "12", "14", "16"],
+        "correctAnswer": 1,
+        "explanation": "4 x 3 = 12. Çünkü 4'ü 3 kere toplarsak: 4 + 4 + 4 = 12",
+        "points": 10
+      },
+      {
+        "id": "q5",
+        "type": "multiple-choice",
+        "question": "6 x 2 = ?",
+        "options": ["10", "12", "14", "16"],
+        "correctAnswer": 1,
+        "explanation": "6 x 2 = 12. Çünkü 6'yı 2 kere toplarsak: 6 + 6 = 12",
+        "points": 10
+      }
+    ],
+    "config": {
+      "questionCount": 5,
+      "timePerQuestion": 60,
+      "showHints": true,
+      "randomizeQuestions": true,
+      "randomizeOptions": true
+    }
+  }
+}

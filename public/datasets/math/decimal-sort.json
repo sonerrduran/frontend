@@ -1,0 +1,46 @@
+{
+  "id": "decimal-sort",
+  "engine": "SortingEngine",
+  "metadata": {
+    "id": "decimal-sort",
+    "name": "Decimal Sort",
+    "category": "math",
+    "grade": 3,
+    "difficulty": "medium",
+    "duration": 300,
+    "tags": [
+      "math",
+      "decimal"
+    ],
+    "description": "Decimal Sort oyunu",
+    "icon": "🔢"
+  },
+  "config": {
+    "timeLimit": 300,
+    "showHints": true,
+    "randomize": true
+  },
+  "data": {
+    "items": [
+      {
+        "id": "1",
+        "content": "Bir",
+        "order": 0
+      },
+      {
+        "id": "2",
+        "content": "İki",
+        "order": 1
+      },
+      {
+        "id": "3",
+        "content": "Üç",
+        "order": 2
+      }
+    ],
+    "config": {
+      "sortType": "numeric",
+      "direction": "asc"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "color-matching",
+  "engine": "MatchingEngine",
+  "metadata": {
+    "id": "color-matching",
+    "name": "Renk Eşleştirme",
+    "category": "language",
+    "grade": 1,
+    "difficulty": "easy",
+    "duration": 120,
+    "tags": ["renkler", "eşleştirme", "kelime"],
+    "description": "Renkleri Türkçe-İngilizce eşleştir",
+    "icon": "🎨"
+  },
+  "config": {
+    "timeLimit": 120
+  },
+  "data": {
+    "pairs": [
+      { "id": "red", "left": "Kırmızı", "right": "Red", "leftImage": "🔴", "rightImage": "🔴" },
+      { "id": "blue", "left": "Mavi", "right": "Blue", "leftImage": "🔵", "rightImage": "🔵" },
+      { "id": "green", "left": "Yeşil", "right": "Green", "leftImage": "🟢", "rightImage": "🟢" },
+      { "id": "yellow", "left": "Sarı", "right": "Yellow", "leftImage": "🟡", "rightImage": "🟡" },
+      { "id": "purple", "left": "Mor", "right": "Purple", "leftImage": "🟣", "rightImage": "🟣" }
+    ],
+    "config": {
+      "randomize": true,
+      "showImages": true
+    }
+  }
+}

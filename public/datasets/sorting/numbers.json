@@ -1,0 +1,31 @@
+{
+  "id": "number-sorting",
+  "engine": "SortingEngine",
+  "metadata": {
+    "id": "number-sorting",
+    "name": "Sayı Sıralama",
+    "category": "math",
+    "grade": 1,
+    "difficulty": "easy",
+    "duration": 120,
+    "tags": ["sıralama", "sayılar", "matematik"],
+    "description": "Sayıları küçükten büyüğe sırala",
+    "icon": "🔢"
+  },
+  "config": {
+    "timeLimit": 120
+  },
+  "data": {
+    "items": [
+      { "id": "1", "content": "Bir", "order": 0, "image": "1️⃣" },
+      { "id": "2", "content": "İki", "order": 1, "image": "2️⃣" },
+      { "id": "3", "content": "Üç", "order": 2, "image": "3️⃣" },
+      { "id": "4", "content": "Dört", "order": 3, "image": "4️⃣" },
+      { "id": "5", "content": "Beş", "order": 4, "image": "5️⃣" }
+    ],
+    "config": {
+      "sortType": "numeric",
+      "direction": "asc"
+    }
+  }
+}

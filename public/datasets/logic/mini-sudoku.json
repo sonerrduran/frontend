@@ -1,0 +1,44 @@
+{
+  "id": "mini-sudoku",
+  "engine": "QuizEngine",
+  "metadata": {
+    "id": "mini-sudoku",
+    "name": "Mini Sudoku",
+    "category": "logic",
+    "grade": 3,
+    "difficulty": "medium",
+    "duration": 300,
+    "tags": [
+      "logic",
+      "mini"
+    ],
+    "description": "Mini Sudoku oyunu",
+    "icon": "🧩"
+  },
+  "config": {
+    "timeLimit": 300,
+    "showHints": true,
+    "randomize": true
+  },
+  "data": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "Soru 1",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctAnswer": 0,
+        "points": 10
+      }
+    ],
+    "config": {
+      "questionCount": 10,
+      "randomizeQuestions": true
+    }
+  }
+}

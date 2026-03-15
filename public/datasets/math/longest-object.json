@@ -1,0 +1,52 @@
+{
+  "id": "longest-object",
+  "engine": "ComparisonEngine",
+  "metadata": {
+    "id": "longest-object",
+    "name": "Longest Object",
+    "category": "math",
+    "grade": 3,
+    "difficulty": "medium",
+    "duration": 300,
+    "tags": [
+      "math",
+      "longest"
+    ],
+    "description": "Longest Object oyunu",
+    "icon": "🔢"
+  },
+  "config": {
+    "timeLimit": 300,
+    "showHints": true,
+    "randomize": true
+  },
+  "data": {
+    "questions": [
+      {
+        "id": "q1",
+        "item1": 5,
+        "item2": 3,
+        "correctAnswer": "bigger",
+        "type": "number"
+      },
+      {
+        "id": "q2",
+        "item1": 2,
+        "item2": 7,
+        "correctAnswer": "smaller",
+        "type": "number"
+      },
+      {
+        "id": "q3",
+        "item1": 4,
+        "item2": 4,
+        "correctAnswer": "equal",
+        "type": "number"
+      }
+    ],
+    "config": {
+      "timeLimit": 60,
+      "showTimer": true
+    }
+  }
+}

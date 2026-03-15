@@ -1,0 +1,49 @@
+{
+  "id": "memory-match",
+  "engine": "MemoryEngine",
+  "metadata": {
+    "id": "memory-match",
+    "name": "Memory Match",
+    "category": "math",
+    "grade": 3,
+    "difficulty": "medium",
+    "duration": 300,
+    "tags": [
+      "math",
+      "memory"
+    ],
+    "description": "Memory Match oyunu",
+    "icon": "🔢"
+  },
+  "config": {
+    "timeLimit": 300,
+    "showHints": true,
+    "randomize": true
+  },
+  "data": {
+    "pairs": [
+      {
+        "id": "pair1",
+        "image1": "🐱",
+        "image2": "🐱",
+        "label": "Kedi"
+      },
+      {
+        "id": "pair2",
+        "image1": "🐶",
+        "image2": "🐶",
+        "label": "Köpek"
+      },
+      {
+        "id": "pair3",
+        "image1": "🐰",
+        "image2": "🐰",
+        "label": "Tavşan"
+      }
+    ],
+    "config": {
+      "gridSize": "4x4",
+      "timeLimit": 180
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "solar-system",
+  "engine": "QuizEngine",
+  "metadata": {
+    "id": "solar-system",
+    "name": "Güneş Sistemi",
+    "category": "science",
+    "grade": 5,
+    "difficulty": "medium",
+    "duration": 600,
+    "tags": ["uzay", "gezegenler", "astronomi"],
+    "description": "Güneş Sistemi'ndeki gezegenleri öğren",
+    "icon": "🌍"
+  },
+  "config": {
+    "timeLimit": 600,
+    "showHints": true,
+    "randomize": false
+  },
+  "data": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "question": "Güneşe en yakın gezegen hangisidir?",
+        "options": ["Merkür", "Venüs", "Dünya", "Mars"],
+        "correctAnswer": 0,
+        "explanation": "Merkür, Güneş'e en yakın gezegendir. Güneş'e ortalama 58 milyon km uzaklıktadır.",
+        "points": 10,
+        "hint": "İlk harf M"
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "question": "Güneş Sistemi'nin en büyük gezegeni hangisidir?",
+        "options": ["Satürn", "Jüpiter", "Uranüs", "Neptün"],
+        "correctAnswer": 1,
+        "explanation": "Jüpiter, Güneş Sistemi'nin en büyük gezegenidir. Çapı yaklaşık 143.000 km'dir.",
+        "points": 10,
+        "hint": "Roma tanrısının adı"
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "question": "Dünya'nın kaç tane doğal uydusu vardır?",
+        "options": ["0", "1", "2", "3"],
+        "correctAnswer": 1,
+        "explanation": "Dünya'nın tek doğal uydusu Ay'dır.",
+        "points": 10
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "question": "Hangi gezegen 'Kırmızı Gezegen' olarak bilinir?",
+        "options": ["Venüs", "Mars", "Jüpiter", "Satürn"],
+        "correctAnswer": 1,
+        "explanation": "Mars, yüzeyindeki demir oksit nedeniyle kırmızı renkte görünür.",
+        "points": 10,
+        "hint": "Savaş tanrısının adı"
+      },
+      {
+        "id": "q5",
+        "type": "multiple-choice",
+        "question": "Satürn'ün en belirgin özelliği nedir?",
+        "options": ["Büyük kırmızı leke", "Halkalar", "Mavi renk", "Çok sayıda uydu"],
+        "correctAnswer": 1,
+        "explanation": "Satürn, etrafındaki görkemli halkaları ile ünlüdür.",
+        "points": 10
+      },
+      {
+        "id": "q6",
+        "type": "multiple-choice",
+        "question": "Güneş Sistemi'nde kaç gezegen vardır?",
+        "options": ["7", "8", "9", "10"],
+        "correctAnswer": 1,
+        "explanation": "Güneş Sistemi'nde 8 gezegen vardır: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs ve Neptün.",
+        "points": 10
+      },
+      {
+        "id": "q7",
+        "type": "multiple-choice",
+        "question": "Hangi gezegen Güneş'ten en uzaktır?",
+        "options": ["Uranüs", "Neptün", "Plüton", "Satürn"],
+        "correctAnswer": 1,
+        "explanation": "Neptün, Güneş'ten en uzak gezegendir. (Plüton artık gezegen sayılmıyor)",
+        "points": 10
+      },
+      {
+        "id": "q8",
+        "type": "multiple-choice",
+        "question": "Dünya Güneş'in etrafında kaç günde döner?",
+        "options": ["30 gün", "365 gün", "100 gün", "500 gün"],
+        "correctAnswer": 1,
+        "explanation": "Dünya, Güneş'in etrafında yaklaşık 365 günde (1 yıl) döner.",
+        "points": 10
+      }
+    ],
+    "config": {
+      "questionCount": 8,
+      "timePerQuestion": 75,
+      "showHints": true,
+      "randomizeQuestions": false,
+      "randomizeOptions": true
+    }
+  }
+}
